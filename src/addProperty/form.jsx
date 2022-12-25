@@ -56,7 +56,7 @@ const Form = () => {
     };
 
     function handleSubmit() {
-        console.log(formData)
+       // console.log(formData)
         axios({
             url: "https://real-estate-backend-3jtv.onrender.com/properties/posts",
             method: "POST",
