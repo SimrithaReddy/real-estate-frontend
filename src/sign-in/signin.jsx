@@ -32,7 +32,7 @@ const Signin = () => {
             },
             data: signindata
         }).then((data) => {       
-            console.log(data.data)
+            //console.log(data.data)
             if(data.data.token.length>0){
                 localStorage.setItem("authorization", data.data.token);
                  localStorage.setItem('userid',signindata.email)
