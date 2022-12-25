@@ -2,14 +2,14 @@ import "../styles/form.css"
 
 const PropertDetail = ({formData, setFormData}) => {
 
-    console.log(formData);
+   // console.log(formData);
     const handleFormData = (e) => {
         const name = e.target.name;
         const value = e.target.value;
         setFormData(previousData => {
             return {...previousData, [name]: value}
         });
-        console.log(formData);
+        //console.log(formData);
     }
 
     return (
